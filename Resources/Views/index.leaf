@@ -8,5 +8,29 @@
 
 <body>
   <h1>#(title)</h1>
+  
+  <h1>Datos</h1>
+  <table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    #for(song in songs){
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    }
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
 </body>
 </html>
